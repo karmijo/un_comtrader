@@ -17,7 +17,7 @@ This method starts from an empty request and sequentially adds the necessary req
 
 ```
 req = ComtraderRequest()
-req.type = "C"
+req.trade_type = "C"
 req.freq = "A"
 req.time_period = [2014,2015,2016]
 req.reporting area = "all"
@@ -29,7 +29,7 @@ req.hs = [44,4401,4402]
 This method sets all of the attributes upon initialization.
 
 ```
-req = ComtraderRequest(type = "C", freq = "A", time_period = [2014,2015,2016] reporting_area = "all", partner_area = 36, hs = [44,4401,4402])
+req = ComtraderRequest(trade_type = "C", freq = "A", time_period = [2014,2015,2016] reporting_area = "all", partner_area = 36, hs = [44,4401,4402])
 ```
 
 #### Method 3
